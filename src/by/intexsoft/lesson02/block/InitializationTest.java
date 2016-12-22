@@ -1,7 +1,7 @@
 package by.intexsoft.lesson02.block;
 
 public class InitializationTest {
-    String name;
+    String name = "Bob";
 
     {
         System.out.println("In the initialization block");

@@ -8,11 +8,20 @@ public abstract class Shape {
     private int height;
     private int width;
 
+    static {
+        System.out.println("in the " + Shape.class.getSimpleName() + " static initialization block");
+    }
+
     public Shape(int leftTopCornerX, int leftTopCornerY, int height, int width) {
         this.leftTopCornerX = leftTopCornerX;
         this.leftTopCornerY = leftTopCornerY;
         this.height = height;
         this.width = width;
+        System.out.println("In the " + Shape.class.getSimpleName() + " constructor");
+    }
+
+    {
+        System.out.println("In the " + Shape.class.getSimpleName() + " initialization block");
     }
 
     public abstract void draw(Graphics g);
