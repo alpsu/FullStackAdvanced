@@ -20,5 +20,6 @@ public class Rectangle extends Shape{
     @Override
     public void draw(Graphics g) {
         g.drawRect(getLeftTopCornerX(), getLeftTopCornerY(), getWidth(), getHeight());
+        System.out.println("in the " + Rectangle.class.getSimpleName() + " draw()"  + " method");
     }
 }
