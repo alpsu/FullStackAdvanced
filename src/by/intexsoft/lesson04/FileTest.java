@@ -1,4 +1,4 @@
-package test;
+package by.intexsoft.lesson04;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

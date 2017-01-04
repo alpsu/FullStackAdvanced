@@ -25,10 +25,10 @@ public class InheritanceTest extends Frame{
         System.out.println("After creating Rectangle");
         System.out.println("-----------------------------------------------------------------------");
         System.out.println("Before creating Box");
-        Shape shapetwo = new Box(120, 200, 50);
+        Shape shapeTwo = new Box(120, 200, 50);
         System.out.println("After creating Rectangle");
         shapeOne.draw(g);
-        shapetwo.draw(g);
+        shapeTwo.draw(g);
     }
 
 

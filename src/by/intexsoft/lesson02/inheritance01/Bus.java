@@ -1,12 +1,12 @@
 package by.intexsoft.lesson02.inheritance01;
 
-public class Bus extends Wehicle {
+public class Bus extends Vehicle {
 
     protected String value = "Bus";
 
     public static void main(String[] args) {
-        Wehicle wehicle = new Wehicle("Wehicle");
-        Wehicle bus = new Bus("Bus");
+        Vehicle wehicle = new Vehicle("Wehicle");
+        Vehicle bus = new Bus("Bus");
         System.out.println(wehicle.value);
         System.out.println(bus.value);
     }

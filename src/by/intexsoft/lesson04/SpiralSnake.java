@@ -1,4 +1,4 @@
-package test;
+package by.intexsoft.lesson04;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -47,8 +47,8 @@ public class SpiralSnake {
 	}
 
 	private static void printArray(int[][] array) {
-		for (int i = 0; i < array.length; i++) {
-			System.out.println(Arrays.toString(array[i]));
-		}
-	}
+        for (int[] tmp : array) {
+            System.out.println(Arrays.toString(tmp));
+        }
+    }
 }

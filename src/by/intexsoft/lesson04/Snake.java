@@ -1,4 +1,4 @@
-package test;
+package by.intexsoft.lesson04;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,13 +10,13 @@ public class Snake {
 	public static void main(String[] args) throws IOException {
 		int numN = getInt();
 		int[][] arr = new int[numN][numN];
-		for (int i = 0; i < numN; i++) {
-			for (int j = 0; j < numN; j++) {
-				if (i % 2 == 0) {
-					arr[i][j] = i * numN + j  + 1;
+		for (int outer = 0; outer < numN; outer++) {
+			for (int inner = 0; inner < numN; inner++) {
+				if (outer % 2 == 0) {
+					arr[outer][inner] = outer * numN + inner  + 1;
 				} else
 				{
-					arr[i][j] = (i + 1) * numN - j ;
+					arr[outer][inner] = (outer + 1) * numN - inner ;
 				}
 			}
 		}

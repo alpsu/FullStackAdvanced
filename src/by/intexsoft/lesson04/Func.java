@@ -1,6 +1,3 @@
-/**
- * 
- */
 package by.intexsoft.lesson04;
 
 import java.io.BufferedReader;
@@ -10,10 +7,7 @@ import java.io.InputStreamReader;
 public class Func
 {
     public static final int RADIUS = 1;
-    /**
-     * @param args
-     * @throws IOException
-     */
+ 
     public static void main(String[] args) throws IOException
     {
         double x = getDouble();

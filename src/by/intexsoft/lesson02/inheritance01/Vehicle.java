@@ -2,15 +2,15 @@ package by.intexsoft.lesson02.inheritance01;
 
 import by.intexsoft.lesson02.exp.CustomException;
 
-public class Wehicle {
+public class Vehicle {
 
     protected String value = "Wehicle";
 
-    private Wehicle() {
+    private Vehicle() {
 
     }
 
-    public Wehicle(String s) {
+    public Vehicle(String s) {
 
     }
 
@@ -20,7 +20,7 @@ public class Wehicle {
 
     protected void printProtected() {
         System.out.println("I am protected method " + value);
-        throw new CustomException();
+        //throw new CustomException();
     }
 
     private void printPrivate() {
